@@ -9,7 +9,7 @@ float  float_power  (float  base, int  n);
 double double_power (double base, int  n);
 
 /*
-    Power fot INT
+    Power for INT
 
     result = base ** n
     result = base ^ n
@@ -37,7 +37,7 @@ int int_power(int base, int n)
 }
 
 /*
-    Power fot LONG
+    Power for LONG
 
     result = base ** n
     result = base ^ n
@@ -65,7 +65,7 @@ long long_power(long base, long n)
 }
 
 /*
-    Power fot FLOAT
+    Power for FLOAT
 
     result = base ** n
     result = base ^ n
@@ -93,7 +93,7 @@ float float_power(float base, int n)
 }
 
 /*
-    Power fot DOUBLE
+    Power for DOUBLE
 
     result = base ** n
     result = base ^ n
