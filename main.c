@@ -3,22 +3,10 @@
 
 int main()
 {
-    int ib, ip;
-    long lb, lp;
-    float fb, fp;
-    double db, dp;
-
-    ib = 3;
-    ip = 3;
-
-    lb = 3L;
-    lp = 3L;
-
-    fb = 3.F;
-    fp = 3;
-
-    db = 3.0;
-    dp = 3;
+    int ib = 3, ip = 3;
+    long lb = 3L, lp = 3L;
+    float fb = 3.F, fp = 3;
+    double db = 3.0, dp = 3;
 
     printf("| int    | base %4i | pow %4i | result %4i |\n", ib, ip, int_power(ib, ip));
     printf("| long   | base %4li | pow %4li | result %4li |\n", lb, lp, long_power(lb, lp));
